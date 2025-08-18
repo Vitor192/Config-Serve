@@ -1,0 +1,9 @@
+serve:
+  port: 8888
+
+  spring:
+    cloud:
+      config:
+        serve:
+         git:
+           url:https://github.com/oswaldoneto/dio-experts-config.git
