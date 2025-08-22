@@ -24,3 +24,14 @@ Todas as configurações dos microsserviços estarão organizadas aqui, permitin
    ```bash
    git clone https://github.com/SEU_USUARIO/config-server.git
    cd config-server
+
+Execute o projeto com Maven ou sua IDE:
+
+Bash 
+
+mvn spring-boot:run
+
+O Config Server estará disponível em:
+
+http://localhost:8888
+
